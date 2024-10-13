@@ -41,6 +41,11 @@
     letter-spacing: 0px;
     text-align: center;
     cursor: pointer;
+    transition: all .159s ease-in-out;
+}
+
+.header__option:hover{
+    transform: scale(1.2);
 }
 
 .header__login-wrapper {
@@ -170,10 +175,15 @@
     font-size: 14px;
     font-weight: 900;
     text-align: center;
+    transition: all .156s ease-in-out;
+}
+
+.button:hover {
+    background: #4e3636;
 }
 
 .box-element__button-news {
-    margin-left: 41px;
+    margin-left: 30px;
 }
 
 .box-element__right-header {
@@ -185,6 +195,11 @@
 .box-element__photo-element {
     margin-left: 94px;
     margin-bottom: 67px;
+    transition: all .159s ease-in-out;
+}
+
+.box-element__photo-element:hover{
+    transform: scale(1.124);
 }
 
 .box-element__button-photo {
@@ -209,8 +224,8 @@
     margin-left: 30px;
     color: rgb(0, 0, 0);
     font-family: "PT Sans";
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
     line-height: 24px;
     letter-spacing: 0px;
     text-align: left;
@@ -251,20 +266,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    gap: 13px;
+    gap: 17px;
 }
 
 .box-element__form-input input {
+    padding-left: 10px;
     border: #000 3px solid;
     height: 44px;
     font-family: "PT Sans";
     font-size: 14px;
+    font-weight: 600;
     color: #000;
 }
 
 .box-element__form-input label {
+    position: relative;
+    left: 20px;
     font-family: "PT Sans";
     font-size: 14px;
+    font-weight: 600;
     color: #000;
 }
 
@@ -280,6 +300,11 @@
     font-size: 14px;
     font-weight: 900;
     text-align: center;
+    transition: all .156s ease-in-out;
+}
+
+.box-element__button-form:hover {
+    background: #855d5d;
 }
 
 .box-element__contacts {
@@ -323,7 +348,8 @@
 .footer__contacts {
     font-family: "PT Sans";
     font-size: 14px;
-    line-height: 20px;
+    line-height: 30px;
+    font-weight: 600;
     color: #FFF;
 }
 
@@ -343,10 +369,24 @@
 }
 
 .footer__link {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000;
     width: 40px;
     height: 40px;
+    transition: all .156s ease-in-out;
+}
+
+.footer__link:hover{
+    width: 60px;
+    height: 60px;
+    background: #352828;
+}
+
+.footer__link a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
 }
