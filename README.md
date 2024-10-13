@@ -14,7 +14,6 @@ Welcome to the **Borodinski Barbershop** website repository. This project showca
 
 - **HTML5**: For semantic structure and content layout.
 - **CSS3**: For modern styling, including flexbox layout and custom fonts from Google Fonts.
-- **JavaScript**: (optional) Can be added for dynamic interaction and form validation.
 - **Google Fonts**: `PT Sans` for a sleek, readable typography.
 - **Reset CSS**: For cross-browser consistency.
 - **SVG & PNG**: For scalable vector graphics and optimized images.
