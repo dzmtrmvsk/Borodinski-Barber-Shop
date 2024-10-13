@@ -1,19 +1,37 @@
-# Frontend
+# Borodinski Barbershop Website
 
-## Guideline for git
+Welcome to the **Borodinski Barbershop** website repository. This project showcases a modern barbershop site designed with a sleek UI/UX that emphasizes speed, quality, and professionalism. The website provides essential information such as services, news, gallery, and contact details, along with a booking system for clients to schedule their next visit.
 
-1. Форкаем данный репозиторий (В github)
-2. Клонируем данный репозиторий на ваш ПК (git clone https://github.com/TevenixLevelUps/Frontend)
-3. Жестко чет пишем
-4. Добавляем изменения в staging (git add .)
-5. Фиксируем прибыль (изменения) (git commit -m "Some title for commit.")
-6. Отправляем изменения в удаленный репозиторий (git push -u https://github.com/TevenixLevelUps/Frontend)
-7. Создаем PR в вашем удаленном github репозитории. Укажите ФИО и ссылку на ТГ.
+## Features
 
-## Task 1
-https://www.figma.com/design/WQfofBBENKfqRLrFpGziK3/barbershop?node-id=0-1&t=1XcjhqTg4mz8i7K3-1
+- **Responsive Design**: Ensures seamless display across various screen sizes (mobile, tablet, desktop).
+- **High-Quality Aesthetic**: Utilizes professional fonts, imagery, and layout for a premium brand feel.
+- **User Interaction**: Includes a booking form with date and time inputs for easy appointment scheduling.
+- **Fast Loading**: Clean and minimalistic code structure to enhance loading performance.
+- **Cross-browser Compatibility**: Tested across major browsers to ensure consistent functionality.
+- **Dynamic Elements**: Photo gallery and interactive news section with call-to-action buttons.
 
-так это ваше дз
-Вам не нужно писать стили
-Просто постарайтесь раскидать грамотно HTML-разметку, испольуя все те методы, о которых я говорил
-s
+## Technologies Used
+
+- **HTML5**: For semantic structure and content layout.
+- **CSS3**: For modern styling, including flexbox layout and custom fonts from Google Fonts.
+- **JavaScript**: (optional) Can be added for dynamic interaction and form validation.
+- **Google Fonts**: `PT Sans` for a sleek, readable typography.
+- **Reset CSS**: For cross-browser consistency.
+- **SVG & PNG**: For scalable vector graphics and optimized images.
+
+## Project Structure
+
+```bash
+├── index.html           # Main HTML file for the homepage
+├── reset.css            # CSS Reset for normalization across browsers
+├── style.css            # Main stylesheet for the project
+├── /public              # Public directory for images and icons
+│   ├── login.svg        # Login icon
+│   ├── index-logo.svg   # Borodinski Barbershop logo
+│   ├── rhombus.svg      # Rhombus design element
+│   ├── divider.png      # Divider image for sections
+│   ├── right-photo.png  # Featured photo for the gallery
+│   ├── facebook.svg     # Facebook icon
+│   ├── vk.svg           # VK icon
+└── README.md            # Project documentation
