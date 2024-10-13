@@ -4,7 +4,6 @@ Welcome to the **Borodinski Barbershop** website repository. This project showca
 
 ## Features
 
-- **Responsive Design**: Ensures seamless display across various screen sizes (mobile, tablet, desktop).
 - **High-Quality Aesthetic**: Utilizes professional fonts, imagery, and layout for a premium brand feel.
 - **User Interaction**: Includes a booking form with date and time inputs for easy appointment scheduling.
 - **Fast Loading**: Clean and minimalistic code structure to enhance loading performance.
